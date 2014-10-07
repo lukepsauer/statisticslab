@@ -71,3 +71,5 @@ else
 end
 puts "The median is: #{median}."
 f.puts "The median is: #{median}."
+#Close the file
+f.close
