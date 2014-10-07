@@ -5,9 +5,6 @@ puts "What is the input file directory?(end with .csv)"
 inputDirectory = gets.to_s.chomp
 puts "What would you like the output directory to be called(end with a .dat)?"
 outputDirectory = gets.to_s.chomp
-puts outputDirectory
-puts inputDirectory
-puts domainUnits
 #Retrive input from file
 f = File.new(inputDirectory, "r")
 input = f.readlines
